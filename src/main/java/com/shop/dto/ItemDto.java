@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-public class ItemDto {
+public class ItemDto { // data transfer object 데이터 입출력 담당 클래스
     private Long id;
     private String itemNm;
     private Integer price;
